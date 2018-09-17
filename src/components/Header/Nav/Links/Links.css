@@ -1,0 +1,21 @@
+.main-nav li {
+    border-left:1px solid #222;
+}
+
+.main-nav li:last-child {
+    border-right:1px solid #222;
+}
+
+.main-nav li a {
+    padding: 25px 15px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.main-nav li.active a {
+    background-color:#EF233C !important;
+}
+
+.main-nav li a:hover, .main-nav li a:focus {
+    background-color:#222;
+}

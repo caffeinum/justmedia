@@ -1,0 +1,44 @@
+.button-nav {
+    position:relative;
+    float:right;
+}
+
+.button-nav > button {
+    padding: 25px 25px;
+    border: none;
+    line-height: 20px;
+    background: transparent;
+    color: #FFF;
+}
+
+.search-form {
+    position: absolute;
+    width: 250px;
+    background: #07090c;
+    padding: 20px;
+    right: 0;
+    border-top: 2px solid #EF233C;
+    -webkit-box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.4);
+    z-index: 22;
+    -webkit-transform:translateY(15px);
+    -ms-transform:translateY(15px);
+    transform:translateY(15px);
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:0.2s all;
+    transition:0.2s all;
+}
+
+.search-form form .input {
+    border:none;
+    background-color:#FFF;
+}
+
+.search-form.search-collapse {
+    -webkit-transform:translateY(0px);
+    -ms-transform:translateY(0px);
+    transform:translateY(0px);
+    opacity:1;
+    visibility:visible;
+}

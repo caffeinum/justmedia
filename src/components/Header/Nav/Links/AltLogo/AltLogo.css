@@ -1,0 +1,13 @@
+#nav-header .nav-logo {
+    display:none;
+    float:left;
+}
+
+#nav-header .nav-logo .logo {
+    display:inline-block;
+}
+
+#nav-header .nav-logo .logo > img {
+    width: 100%;
+    max-height: 90px;
+}

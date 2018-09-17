@@ -1,0 +1,11 @@
+#header #nav-header {
+    background: #07090c;
+}
+
+#nav-header.fixed {
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    z-index:99;
+}

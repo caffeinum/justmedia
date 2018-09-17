@@ -1,0 +1,25 @@
+.header-social {
+    float:right;
+}
+
+.header-social ul li {
+    display: inline-block;
+    border-left: 1px solid #DDD;
+}
+
+.header-social ul li:last-child {
+    border-right:1px solid #DDD;
+}
+
+.header-social ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #222;
+    text-align: center;
+}
+
+.header-social ul li a:hover {
+    color:#EF233C;
+}

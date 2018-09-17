@@ -1,39 +1,20 @@
-# gatsby-advanced-blog
-> Gatsby starter for advanced blog
+<p align="center"><a href="https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f"><img src="https://i.imgur.com/PATsTx2.png" title="View tutorial" alt="React, React Router, Redux and Redux Thunk" width="900"></a></p>
 
-## Install
-```
-$ npm i -S gatsby-advanced-blog
-```
+* Tutorial: [Getting started with create-react-app, Redux, React Router & Redux Thunk](https://medium.com/@notrab/getting-started-with-create-react-app-redux-react-router-redux-thunk-d6a19259f71f)
+* [Demo](https://create-react-app-redux.now.sh) 🙌
 
-## Start with gatsby-cli
-```
-$ gatsby new PROJECT_NAME https://github.com/wonism/gatsby-advanced-blog
-```
+## Installation
 
-## Features
-- Post
-  - Pagination
-  - Categories
-  - Tags
-  - Search
-  - Put React Application into post
-  - Put Tweet into post
-  - Draft (set `hide` to `true`)
-  - Copy codes with clicking button
-- Portfolio
-- Resume
-
-## Managing statement by Redux
-- Reselect for selectors
-- Redux saga for asynchronous action
-
-## Development
-```
-$ npm run dev
+```bash
+git clone https://github.com/notrab/create-react-app-redux.git
+cd create-react-app-redux
+yarn
 ```
 
-## Build
+## Get started
+
+```bash
+yarn start
 ```
-$ npm run build
-```
+
+This boilerplate is built using [create-react-app](https://github.com/facebook/create-react-app) so you will want to read the User Guide for more goodies.
