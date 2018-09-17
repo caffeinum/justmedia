@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="57447d50-290c-4fb3-b090-bf9b9a83094c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/nikitadementev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/justmedia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_logs/2018-09-17T17_14_15_392Z-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Bio/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CategorizedList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Card/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Clearfix/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Pagination/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/PortfolioCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/PostWrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/PostsWrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/SimpleWrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/Wrapper/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Gnb/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HigherOrderLayout/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/List/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolios/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Resume/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaggedList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Gnb/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/HigherOrderLayout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Post/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Resume/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/.sample.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/404.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-1/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-10/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-2/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-3/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-4/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-5/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-6/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-7/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-8/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/post-9/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/postComponents/sample/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/resume/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-1/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-1/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-1/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-2/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-2/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-2/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-3/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-3/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-3/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-4/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-4/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-4/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/test-4/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/initializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/app/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/initialState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/initializer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/posts/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/CategorizedList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/List.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Portfolio.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Portfolios.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Resume.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/TaggedList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/createReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formattedDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1051095519">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="eslintrc" value="1" />
+          <entry key="js" value="2" />
+          <entry key="json" value="2" />
+          <entry key="jsx" value="6" />
+          <entry key="md" value="1" />
+          <entry key="prettierrc" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="JSX Harmony" value="6" />
+          <entry key="JavaScript" value="2" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="eslintrc" value="6" />
+          <entry key="js" value="2" />
+          <entry key="json" value="32" />
+          <entry key="jsx" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="38" />
+          <entry key="JSX Harmony" value="26" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1225">
+              <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/src/components/Gnb/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/HigherOrderLayout/index.jsx" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/src/components/Common/Card/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Home/index.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="justmedia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="justmedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="justmedia" type="b2602c69:ProjectViewProjectNode" />
+              <item name="justmedia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57447d50-290c-4fb3-b090-bf9b9a83094c" name="Default Changelist" comment="" />
+      <created>1537203374415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537203374415</updated>
+      <workItem from="1537203376184" duration="1914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1914000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.016008537" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bio/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Gnb/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="523" column="27" selection-start-line="523" selection-start-column="27" selection-end-line="523" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HigherOrderLayout/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Common/Card/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="130" column="116" selection-start-line="130" selection-start-column="116" selection-end-line="130" selection-end-column="116" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="69" column="20" lean-forward="true" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Unnamed</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

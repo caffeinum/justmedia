@@ -1,7 +1,35 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+import { renderToString } from 'react-dom/server';
+import Helmet from 'react-helmet';
+import { ServerStyleSheet } from 'styled-components';
 
- // You can delete this file if you're not using it
+export const replaceRenderer = ({
+  bodyComponent,
+  replaceBodyHTMLString,
+  setHeadComponents
+}) => {
+  const sheet = new ServerStyleSheet();
+  const body = renderToString(sheet.collectStyles(bodyComponent));
+
+  replaceBodyHTMLString(body);
+  setHeadComponents([sheet.getStyleElement()]);
+
+  return;
+};
+
+export const onRenderBody = ({
+  setHeadComponents,
+  setHtmlAttributes,
+  setBodyAttributes,
+}, pluginOptions) => {
+  const helmet = Helmet.renderStatic();
+  setHtmlAttributes(helmet.htmlAttributes.toComponent());
+  setBodyAttributes(helmet.bodyAttributes.toComponent());
+  setHeadComponents([
+    helmet.title.toComponent(),
+    helmet.link.toComponent(),
+    helmet.meta.toComponent(),
+    helmet.noscript.toComponent(),
+    helmet.script.toComponent(),
+    helmet.style.toComponent(),
+  ]);
+};
