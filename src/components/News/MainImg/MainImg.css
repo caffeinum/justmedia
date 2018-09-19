@@ -5,3 +5,8 @@
 .article-post .article-main-img img {
     width:100%;
 }
+
+.blockImages {
+    width: 100%;
+    background: #8c8c8c;
+}

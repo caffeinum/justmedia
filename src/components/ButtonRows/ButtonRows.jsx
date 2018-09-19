@@ -5,8 +5,8 @@ import './ButtonRows.css'
 const ButtonRows = ({ word, getNews }) => (
   <div className="button-select">
     {
-      word.map((item) => (
-        <button onClick={() => getNews(item)}>
+      word.map((item, index) => (
+        <button onClick={() => getNews(item)} key={index}>
           Get news about {item}
         </button>
       ))
