@@ -1,14 +1,18 @@
 import React, { Fragment } from 'react'
 
 import Header from '../../components/Header/Header'
+import { PageContainer } from "../../components/layout"
+
 
 const App = ({ children }) => (
   <Fragment>
     <Header />
 
-    <main>
-      {children}
-    </main>
+    <PageContainer>
+      <main>
+        {children}
+      </main>
+    </PageContainer>
   </Fragment>
 )
 

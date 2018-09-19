@@ -1,0 +1,16 @@
+.article .article-meta {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.article .article-meta li {
+    display:inline-block;
+    color:#DDD;
+    font-weight:400;
+    font-size:12.5px;
+    text-transform:uppercase;
+}
+
+.article .article-meta li + li {
+    margin-left:10px;
+}

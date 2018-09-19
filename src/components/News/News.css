@@ -1,0 +1,49 @@
+.article {
+    position:relative;
+    margin-bottom:30px;
+}
+
+.article .article-img {
+    position:relative;
+    overflow:hidden;
+    margin-bottom:15px;
+}
+
+.article.row-article:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.article.row-article .article-img {
+    width:50%;
+    float:left;
+    margin-right:30px;
+    margin-bottom:0px;
+}
+
+.showMore {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.moreNews {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .article.row-article .article-img {
+        width:180px;
+    }
+
+    .article.row-article .article-body p {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .article.row-article .article-img {
+        float:none;
+        margin-bottom:15px;
+    }
+}
