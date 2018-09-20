@@ -3,9 +3,9 @@ import React from 'react'
 
 const Text = ({ text }) => (
   <div>
-     <p>
-       {text}
-     </p>
+     {
+       text.split('\n').map(item => <p>{item}</p>)
+     }
   </div>
 )
 

@@ -7,7 +7,7 @@ const ButtonRows = ({ word, getNews }) => (
     {
       word.map((item, index) => (
         <button onClick={() => getNews(item)} key={index}>
-          Get news about {item}
+          #{item}
         </button>
       ))
     }

@@ -1,9 +1,20 @@
 .article-post .article-main-img {
     margin-bottom:15px;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 .article-post .article-main-img img {
-    width:100%;
+    height: 400px;
+    transition: all 0.4s ease ;
+    overflow: hidden;
+}
+
+.article-main-img img:hover {
+    transform: scale(1.2);
+    position: relative;
+    transition: all 0.4s ease ;
 }
 
 .blockImages {
