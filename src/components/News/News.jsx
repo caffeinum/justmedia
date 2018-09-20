@@ -53,7 +53,7 @@ class News extends React.Component {
               isMore && moreNews.map((item, index) => (
                 <div className="col-md-6" style={{ height: '260px', marginBottom: '20px' }} key={index}>
                   <article className="article article-post">
-                      <MainImg img={item.image} />
+                      <img src={item.image} className="imageSmall" alt="asd" />
                       <p>
                         {item.title}
                       </p>

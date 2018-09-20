@@ -11,7 +11,7 @@ const MainImg = ({ img }) => {
 
   return (
     <div className="article-main-img">
-      <img src={img} alt="" className="hoverBefore" />
+      <img src={img} alt=""  />
     </div>
   )
 }

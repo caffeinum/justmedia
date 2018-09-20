@@ -9,6 +9,10 @@
     margin-bottom:15px;
 }
 
+.imageSmall {
+    width: 100%;
+}
+
 .article.row-article:after {
     content:"";
     display:block;
