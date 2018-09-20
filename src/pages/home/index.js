@@ -23,16 +23,16 @@ class Home extends React.Component  {
     const { isSubmitted } = this.state
 
     return (
-      <div>
+      <div style={{ width: '100%' }}>
         <ButtonRows word={word} getNews={this.handleSubmit} />
         {
           isSubmitted ? (
             isRequested ? (
               <span> Loading..</span>
             ) : (
-              <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                <News news={positive}/>
-                <News news={negative} />
+              <div style={{ display: 'flex', justifyContent: 'space-around', height: '800px' }}>
+                <News news={positive} positive={true}/>
+                <News news={negative} positive={false} />
               </div>
             )
           ) : (

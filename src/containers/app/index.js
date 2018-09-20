@@ -9,7 +9,7 @@ const App = ({ children }) => (
     <Header />
 
     <PageContainer>
-      <main>
+      <main style={{ display: 'flex', justifyContent: 'center' }}>
         {children}
       </main>
     </PageContainer>

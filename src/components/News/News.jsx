@@ -25,31 +25,38 @@ class News extends React.Component {
   }
 
   render() {
-    const { news } = this.props
+    const { news, positive } = this.props
     const { isMore, moreNews } = this.state
 
     return (
       <div className="col-md-6">
+        {
+          positive ? (
+            <h1 style={{ color: 'green' }}>Positive</h1>
+          ) : (
+            <h1 style={{ color: 'red' }}>Negative</h1>
+          )
+        }
           <article className="article article-post">
             <Link to={`/news-${news[0]._id}-${news[0].search_query}`}>
               <MainImg img={news[0].image} />
               <Title>
                 {news[0].title}
               </Title>
-              <Text text={news[0].summary} />
             </Link>
+              <Text text={news[0].summary} />
             <button className="showMore" onClick={this.handelShowMore}>Show more news</button>
           </article>
 
-          <div className="moreNews">
+          <div className="row" style={{ marginTop: '20px' }}>
             {
               isMore && moreNews.map((item, index) => (
-                <div className="col-md-6">
-                  <article className="article article-post" key={index}>
+                <div className="col-md-6" style={{ height: '260px', marginBottom: '20px' }} key={index}>
+                  <article className="article article-post">
                       <MainImg img={item.image} />
-                      <Title>
+                      <p>
                         {item.title}
-                      </Title>
+                      </p>
                     <Link to={`/news-${item._id}-${item.search_query}`}>Go to news</Link>
                   </article>
                 </div>

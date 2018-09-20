@@ -27,14 +27,13 @@ class About extends React.Component {
     }
 
     return (
-      <div className="col-md-12">
+      <div className="col-md-8" style={{ lineHeight: '24px' }}>
         <Link to="/">Go back</Link>
         <article className="article article-post" >
           <MainImg img={needNews[0].image} />
           <Title>
             {needNews[0].title}
           </Title>
-          <Text text={needNews[0].summary} />
           <Text text={needNews[0].text} />
         </article>
       </div>
