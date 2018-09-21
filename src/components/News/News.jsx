@@ -45,6 +45,9 @@ class News extends React.Component {
               </Title>
             </Link>
               <Text text={news[0].summary} />
+              <Link to={`/news-${news[0]._id}-${news[0].search_query}`}>
+                <p>Continue reading...</p>
+              </Link>
             <button className="showMore" onClick={this.handelShowMore}>Show more news</button>
           </article>
 
@@ -53,11 +56,12 @@ class News extends React.Component {
               isMore && moreNews.map((item, index) => (
                 <div className="col-md-6" style={{ height: '260px', marginBottom: '20px' }} key={index}>
                   <article className="article article-post">
+                    <Link to={`/news-${item._id}-${item.search_query}`}>
                       <img src={item.image} className="imageSmall" alt="asd" />
                       <p>
                         {item.title}
                       </p>
-                    <Link to={`/news-${item._id}-${item.search_query}`}>Go to news</Link>
+                    </Link>
                   </article>
                 </div>
               ))
