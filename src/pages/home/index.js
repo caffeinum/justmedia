@@ -25,8 +25,9 @@ class Home extends React.Component  {
 
     return (
       <div style={{ width: '100%' }}>
-        <ButtonRows word={word} getNews={this.handleSubmit} />
-        { topic && <h2>{topic}</h2> }
+        { topic
+          ? <h2>{topic}</h2>
+          : <ButtonRows word={word} getNews={this.handleSubmit} /> }
         {
           isSubmitted ? (
             isRequested ? (
