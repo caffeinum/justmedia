@@ -46,7 +46,7 @@ export const getNews = (search) => {
       type: GET_NEWS_REQUESTED
     })
 
-    axios.get(`https://api.morejust.media/posts/search?q=${search}`)
+    axios.get(`https://api.morejust.media/posts/search?q=${search}&filterOutput=true`)
       .then(({ data }) => {
 
         console.log('data', data)
