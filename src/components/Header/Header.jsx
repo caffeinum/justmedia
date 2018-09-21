@@ -8,7 +8,6 @@ import Center from './Center/Center'
 
 const Header = () => (
   <header id="header">
-    <Top />
     <Center />
     <Nav />
   </header>
