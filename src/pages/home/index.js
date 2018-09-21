@@ -11,20 +11,22 @@ const word = ['iPhone XS', 'Trump', 'Syrie', 'Iraq', 'Russia']
 class Home extends React.Component  {
   state = {
     isSubmitted: false,
+    topic: null,
   }
 
   handleSubmit = (search) => {
-    this.setState(() => ({ isSubmitted: true }))
+    this.setState(() => ({ isSubmitted: true, topic: search }))
     this.props.getNews(search)
   }
 
   render() {
     const { isRequested, data: { positive, negative } } = this.props
-    const { isSubmitted } = this.state
+    const { isSubmitted, topic } = this.state
 
     return (
       <div style={{ width: '100%' }}>
         <ButtonRows word={word} getNews={this.handleSubmit} />
+        <h2>{topic ? topic : 'Welcome'}</h2>
         {
           isSubmitted ? (
             isRequested ? (
@@ -36,7 +38,7 @@ class Home extends React.Component  {
               </div>
             )
           ) : (
-            <h1>Nothing</h1>
+            <h3>Nothing</h3>
           )
         }
       </div>
