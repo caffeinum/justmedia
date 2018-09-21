@@ -9,6 +9,13 @@ const Logo = () => (
     <a href="" className="logo">
       <img src={logo} alt="Logo" />
     </a>
+    <div className="header-text">
+      ore
+      <br />
+      just
+      <br />
+      edia
+    </div>
   </div>
 )
 
