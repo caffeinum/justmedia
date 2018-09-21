@@ -4,10 +4,7 @@ import './Links.css'
 
 const navigation = [
   {links: '/', title: 'About Us'},
-  {links: '/', title: 'Contact'},
-  {links: '/', title: 'Advertisement'},
-  {links: '/', title: 'Privacy'},
-  {links: '/', title: 'Login'}
+  {links: '/', title: 'Login'},
 ]
 
 

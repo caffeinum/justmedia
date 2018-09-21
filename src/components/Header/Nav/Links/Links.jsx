@@ -4,13 +4,9 @@ import './Links.css'
 import AltLogo from './AltLogo/AltLogo'
 
 const navigation = [
-  {links: '/', title: 'Home'},
-  {links: '/', title: 'News'},
-  {links: '/', title: 'Sport'},
-  {links: '/', title: 'Lifestyle'},
-  {links: '/', title: 'Fashion'},
-  {links: '/', title: 'Music'},
-  {links: '/', title: 'Business'},
+  {links: '/home', title: 'Home'},
+  {links: '/', title: 'Trends'},
+  {links: '/about', title: 'About'},
 ]
 
 

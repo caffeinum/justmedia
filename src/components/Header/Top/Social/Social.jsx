@@ -3,11 +3,9 @@ import './Social.css'
 
 
 const navigation = [
-  {links: '/', icon: 'fa-facebook'},
-  {links: '/', icon: 'fa-twitter'},
-  {links: '/', icon: 'fa-google-plus'},
-  {links: '/', icon: 'fa-instagram'},
-  {links: '/', icon: 'fa-youtube'}
+  {links: 'https://www.instagram.com/neuralcat/', icon: 'fa-instagram'},
+  {links: 'https://t.me/testnet_exchange', icon: 'fa-paper-plane'},
+  {links: 'https://twitter.com/caffeinum', icon: 'fa-twitter'},
 ]
 
 
