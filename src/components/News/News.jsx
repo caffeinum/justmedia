@@ -3,7 +3,6 @@ import './News.css'
 
 import { Link } from 'react-router-dom'
 
-import Text from './Text/Text'
 import Title from './Title/Title'
 import MainImg from './MainImg/MainImg'
 
@@ -28,6 +27,8 @@ class News extends React.Component {
     const { news, positive } = this.props
     const { isMore, moreNews } = this.state
 
+    console.log('news', news)
+
     return (
       <div className="col-md-6">
         {
@@ -44,7 +45,7 @@ class News extends React.Component {
                 {news[0].title}
               </Title>
             </Link>
-              <Text text={news[0].summary} />
+              {news[0].summary.substr(0, 250)}
               <Link to={`/news-${news[0]._id}-${news[0].search_query}`}>
                 <p>Continue reading...</p>
               </Link>

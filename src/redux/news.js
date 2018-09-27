@@ -49,7 +49,6 @@ export const getNews = (search) => {
     axios.get(`https://api.morejust.media/posts/search?q=${search}&filterOutput=true`)
       .then(({ data }) => {
 
-        console.log('data', data)
         dispatch({
           type: GET_NEWS,
           data: {

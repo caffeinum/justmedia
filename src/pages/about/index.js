@@ -34,7 +34,7 @@ class About extends React.Component {
           <Title>
             {needNews[0].title}
           </Title>
-          <Text text={needNews[0].text} />
+          <Text text={needNews[0].text} entities={needNews[0].entity.mentions} />
         </article>
       </div>
     )
