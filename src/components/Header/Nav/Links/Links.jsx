@@ -1,11 +1,13 @@
 import React from 'react'
 import './Links.css'
 
+import { NavLink } from 'react-router-dom'
+
 import AltLogo from './AltLogo/AltLogo'
 
 const navigation = [
-  {links: '/home', title: 'Home'},
-  {links: '/', title: 'Trends'},
+  {links: '/', title: 'Home'},
+  {links: '/news', title: 'News'},
   {links: '/about', title: 'About'},
 ]
 
@@ -17,7 +19,7 @@ const Links = () => (
       {
         navigation.map((item, index) => (
           <li key={index}>
-            <a href={item.links}>{item.title}</a>
+            <NavLink to={item.links}>{item.title}</NavLink>
           </li>
         ))
       }
